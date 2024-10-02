@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  height: 100vh; // Ocupa toda a altura da tela
+  width: 100%;   // Ocupa toda a largura da tela
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 100%; // Garante que o conteúdo ocupe toda a largura disponível
+  padding: 20px; // Adiciona um padding para o conteúdo não colar nas bordas
+  background-color: #f4f5f7; // Cor de fundo para o conteúdo
+}

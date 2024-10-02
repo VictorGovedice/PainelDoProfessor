@@ -1,0 +1,53 @@
+.Sidebar {
+  height: 100%;
+  width: 250px;
+
+  .sidebarContent {
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 0;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; // Center the logo horizontally
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 1rem;
+  }
+
+  .list {
+    list-style: none;
+    padding: 0; // Remove default padding for a cleaner look
+
+    .item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px; // Add some spacing between items
+
+      .button {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px; // Adjust button padding for compact design
+        width: 100%; // Full width
+        border-radius: 8px; // Rounded corners for buttons
+        text-align: left;
+        font-size: 16px;
+        font-weight: 500;
+        transition: background-color 0.3s, color 0.3s; // Smooth transitions
+
+        &:hover {
+          background-color: #f0f0f0; // Add a subtle hover background
+          color: #007bff; // Change text color on hover
+        }
+      }
+
+      .icon {
+        margin-right: 15px;
+        min-width: 30px; // Consistent icon size for alignment
+      }
+    }
+  }
+}
